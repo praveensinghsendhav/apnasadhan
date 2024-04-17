@@ -1,0 +1,144 @@
+
+.mainbookdiv{
+  width: 100%;
+  height: 700px;
+  /* background-color: aqua;  */
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+  font-family: "Rowdies", sans-serif; 
+  flex-wrap: wrap;
+} 
+.billingdetails{ 
+width: 35%;
+height: 80%;
+background-color: rgb(255, 255, 255); 
+margin: 0px 30px; 
+border-radius: 20px; 
+box-shadow: 2px 2px 15px black;  
+padding: 20px; 
+} 
+#bdheading , #oiheading{
+  padding: 20px 20px 0px 20px ;
+}
+.orderinfo{ 
+  width: 35%;
+height: 80%;
+background-color: rgb(255, 255, 255); 
+margin: 0px 30px; 
+border-radius: 20px; 
+box-shadow: 2px 2px 15px black; 
+padding: 20px;
+} 
+.bddata{
+  width: 228px;
+  height: 70px;
+  /* background-color: brown; */
+  margin: 5px; 
+  display: flex;
+  flex-direction: column; 
+  padding: 10px;
+} 
+.bddata label{
+color: #90170c; 
+font-weight: 700;
+} 
+.bddata input{
+  width: 100%;
+  height: 30px; 
+  color: rgb(84, 84, 84); 
+  font-size: 16px;
+}
+.bdalldata{
+  width: 100%;
+  height: 50%; 
+  /* background-color: blueviolet;  */
+  display: flex; 
+  flex-wrap: wrap; 
+  justify-content: center;
+}  
+.bdalldata button{
+  padding: 5px 20px; 
+  font-size: 20px; 
+  border-radius: 10px; 
+  background-image: linear-gradient(45deg ,rgb(41, 49, 81)  ,rgb(218, 75, 75), rgb(41, 49, 81) ,rgb(218, 75, 75)); 
+  color: aliceblue;
+}
+.bdcheckboxs{
+  width: 100%;
+  height: 80px; 
+  /* background-color: rgb(226, 43, 43); */
+  margin: 7px; 
+  padding: 10px; 
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around; 
+} 
+.bdc input{
+ width: 20px;
+ height: 20px; 
+ margin-right: 20px; 
+ background-color: #90170c;
+}
+.bdc{
+  display: flex; 
+  font-size: larger; 
+  font-weight: 400;
+} 
+
+.oidatatable{
+  width: 100%;
+  height: 80%;
+  /* background-color: aquamarine; */
+}  
+.oitheading , .oitheading2{
+  padding: 10px 10px; 
+  font-size: 10px; 
+  width: 14rem;
+  height: 50px; 
+  font-size: 12px;
+  /* background-color: blue;  */ 
+  text-align: left;
+} 
+.oitdata .oitdata2{ 
+  width: 30rem;
+  height: 50px; 
+  /* background-color: blanchedalmond;  */
+  padding: 5px 20px; 
+  text-align: justify;
+} 
+.oitdata2{
+  font-size: 30px; 
+  font-weight: 600; 
+  color: #90170c;
+} 
+
+
+@media(max-width:700px){
+  .mainbookdiv{ 
+    height: fit-content; 
+    padding-top: 30px;
+  }
+  .billingdetails{ 
+    margin-top: 30px;
+    width: 100%; 
+    font-size: 13px; 
+    margin-top: 20px;
+  }
+  .orderinfo{
+    width: 100%; 
+    margin-top: 20px; 
+    margin-bottom: 20px;
+  }
+  .oitheading , .oitheading2{
+    width: 7rem; 
+    font-size: 10px; 
+    /* background-color: blue;  */
+  } 
+  .oitdata .oitdata2{
+    width: 16rem; 
+    height: 50px; 
+    color: rgb(73, 72, 72);
+    text-align: justify;
+  }
+}

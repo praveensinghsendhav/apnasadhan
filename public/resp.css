@@ -1,0 +1,417 @@
+@media(max-width:700px)
+{ 
+  .main{
+    height: 520px; 
+    overflow: hidden;
+  }
+  .mylogo{
+    font-size: 4vh; 
+   }  
+   .navbar{
+    overflow: hidden; 
+    /* background-color: bisque;  */
+    justify-content: space-between; 
+   }
+   .weblinks{
+    visibility: hidden; 
+    position: absolute;
+   } 
+   .menuicons{
+    visibility: visible; 
+    margin-right: 20px;
+   } 
+   .punchline{
+    height: 100px; 
+    flex-direction: column;  
+    align-items: start; 
+    background-color: white;
+   } 
+   .quote{ 
+    font-size: 20px; 
+    width: 370px; 
+    background-color: #ffffff; 
+    text-align: center;
+   } 
+   .phone{ 
+    margin-top: 10px;
+    font-size: 13px; 
+    width: 130px; 
+    padding: 10px 10px;
+    border-radius: 10px 0px;  
+    z-index: 2;
+   } 
+   .car{
+    top: 140px;  
+    width: 700px; 
+    left: -200px; 
+  overflow: hidden; 
+  position: absolute; 
+  z-index: 1;
+  }  
+  .mycar{
+    width: 100px; 
+    animation: moveCar 4s linear infinite; 
+    overflow: hidden;
+  } 
+  #mycar1{
+    margin-right: 100px; 
+}   
+.cartrips{
+  flex-wrap: wrap; 
+  font-size: 12px; 
+  /* background-color: #6200be;  */
+  height: 330px;
+}
+.linkbox{
+   width: 130px;
+   height: 130px;  
+}
+.iconcar{
+width: 65px;
+height: 65px;
+} 
+.linkbox:hover {
+  box-shadow: 2px 2px 10px #b90101; 
+  background-color: #ffff00; 
+  transition: 0.5s ease;
+}
+
+
+
+.data{
+  width: 100%;
+  height: 230px;
+} 
+.details{
+  width: 90%;
+  height: 170px; 
+}  
+.alldetails{
+  flex-wrap: wrap;
+}
+#Ocity {
+  width: 310px; 
+  height: 50px; 
+  margin:0px 20px ;
+  font-size: 15px; 
+  font-weight: 700; 
+  color: #424244; 
+  box-sizing: border-box; 
+  border: 0 !important; 
+  padding: 0 , 10px; 
+  margin-bottom: 10px; 
+  box-shadow: none; 
+}
+
+#combo , #pdate{
+  width: 145px; 
+  height: 30px; 
+  margin:0px 20px ;
+  font-size: 15px; 
+  font-weight: 700; 
+  color: #424244; 
+  box-sizing: border-box; 
+  border: 0 !important; 
+  padding: 0 , 10px; 
+  margin-bottom: 10px; 
+  box-shadow: none; 
+} 
+#pdate{
+  height: 90px;
+}
+.data1{ 
+  width: 100%; 
+  border: none;
+  height: 90px; 
+  border-radius: 10px 10px 0px 0px;
+} 
+.data2{
+  width: 50%; 
+  height: 80px; 
+  border: none;
+  border-radius: 0px 0px 0px 10px; 
+}
+.data3{
+  width: 50%; 
+  height: 80px; 
+  border: 0px 0px 10px 0px;
+} 
+.fdetail label{
+   margin:10px 20px; 
+   color: #6200be;
+} 
+.searchbtn{
+  width: 100px;
+  height: 40px; 
+  font-size: 15px; 
+  left: 137.5px; 
+  box-shadow: 2px 2px 10px black;
+} 
+.chooseus{
+  margin-top: 10px;
+}
+.chooseus h1{
+  margin-top: 20px; 
+  font-size: 35px; 
+  font-weight: 800;
+}
+ .cl{
+  width: 130px;
+  height: 150px;
+  background-color: #f9fafd; 
+  margin: 5px; 
+  display: flex; 
+  justify-content: space-around;
+  align-items: center; 
+  flex-direction: column;
+} 
+ .cllogo{
+  width: 60px;
+  height: 60px;
+ }
+.cheading{
+  font-size: 15px;
+}
+.cl p{
+  font-size: 10px;
+  padding: 5px 7px;
+} 
+.AboutUs{ 
+  overflow: hidden;
+  width: 100%;
+  height: 580px;  
+  margin-top: 15px;
+} 
+.AboutUs h1{
+  color: rgb(0, 0, 0);  
+  font-size: 35px; 
+} 
+.AboutUs p{ 
+  margin-top: 5px;
+  color: rgb(90, 89, 89); 
+  font-size: 15px; 
+  padding: 0px 30px; 
+  text-align: justify;
+}
+
+.howitwork{
+  width: 100%;
+  height: 470px; 
+  /* background-color: #6200be;  */
+  margin-top: 0px; 
+  overflow: hidden;
+} 
+.hiwbox{
+  width: 90%;
+  height: 450px;  
+  border-radius: 20px;
+  /* background-color: #a579e8;  */ 
+  box-shadow:1px 1px 3px rgb(66, 66, 66) , 1px 1px 5px black;
+}
+.howitwork h1{
+  font-size: 15px; 
+  margin-top: 10px;
+} 
+.howitwork h2{
+  font-size: 15px; 
+  font-weight: 900;
+} 
+
+.steps3{
+width: 100%;
+height: 320px; 
+/* background-color: #6200be;  */
+margin-bottom: 10px; 
+flex-wrap: wrap;
+} 
+
+.card{
+  width: 150px;
+  height: 150px; 
+  margin:5px  5px;  
+  border-radius: 20px;
+} 
+.clogo{
+  width: 80px;
+  height: 80px; 
+  /* background-color: #a579e8;  */
+  border-radius: 20px; 
+  box-shadow: 2px 2px 10px black;
+} 
+.card h1{
+  color: #000000; 
+  font-size: 13px;
+}
+.card p{
+  color: grey; 
+  padding: 0px 15px; 
+  text-align: center; 
+  font-size: 10px;
+} 
+
+
+
+.car_adv{ 
+  overflow: hidden;
+  width: 100%;
+  height: 550px;
+  /* background-color: #6200be;  */
+  display: flex;  
+  flex-wrap: wrap; 
+  flex-direction: column;
+  margin-top: 20px;
+} 
+.cmaincont{
+width: 100%;
+height: 300px; 
+/* background-color: #584141;  */
+font-size: 20px; 
+font-family: "Rowdies", sans-serif;
+font-weight: 400;
+font-style: normal; 
+position: relative; 
+padding: 15px; 
+}  
+.ourcaricon{
+ width: 100%;
+ height: 250px; 
+ /* background-color: #a579e8;   */
+ background-image: url("./images/mycar.avif"); 
+ background-position: center;
+ background-size: cover; 
+ /* background-color: #f9fafd; */
+} 
+.easyicon{ 
+  font-family: "Dancing Script", cursive;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal; 
+  font-size: 50px; 
+  color: red; 
+  text-shadow: 1px 1px 5px rgb(219, 129, 129);
+} 
+.cmaincont h2{ 
+  margin-top: 10px;
+  font-size: 15px;
+  color: grey;
+} 
+.download{
+  width: 100%;
+  height: 70px; 
+  margin-top: 10px;  
+  background-image: url("./images/downloadfrom.png"); 
+  background-position: center;
+  background-size: cover;
+}
+
+.getintouch{ 
+  overflow: hidden;
+  width: 100%;
+  height: 730px; 
+  /* background-color: #989696;  */
+  display: flex; 
+  justify-content: center;
+  align-items: center; 
+  flex-direction: column;
+} 
+.gitdetail:hover{
+  background-color: #344364; 
+  color: white; 
+  transition: 0.5s ease;
+} 
+.gitdetail{
+width: 90%;
+height: 300px; 
+background-color: #fffefe; 
+display: flex;
+flex-direction: column; 
+justify-content: space-around; 
+padding: 20px  20px; 
+border-radius: 20px; 
+box-shadow: 2px 2px 10px black; 
+margin-left: 7px;
+} 
+.gitforms{ 
+  margin-top: 10px;
+width: 90%;
+height: 400px;
+/* background-color: #f9fafd;  */
+display: flex;
+flex-direction: column; 
+justify-content: space-around; 
+padding: 5px  10px; 
+} 
+.githead{
+  font-size: 30px; 
+  font-weight: 100;
+} 
+.gitforms label{
+  font-size: 15px;
+} 
+.gitforms input{
+  font-size: 13px; 
+  width: 100%; 
+  border-radius: .25rem; 
+  height: 40px; 
+  margin-bottom: 20px; 
+} 
+#msg{
+  width: 100%;
+  height: 80px;  
+  font-size: 13px;
+  border-radius: .25rem; 
+   transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+} 
+.gitforms button{
+  padding: 5px 10px;
+  font-size: 13px;
+  color: white;
+  background-image: linear-gradient(45deg ,rgb(41, 49, 81)  ,rgb(218, 75, 75), rgb(41, 49, 81) ,rgb(218, 75, 75));
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+
+.footer{
+  width: 100%;
+  height: 900px; 
+  /* background-color: #14213D;  */
+  flex-wrap: wrap; 
+} 
+.innerfooter{
+  width: 100%;
+  height: 620px; 
+  /* background-color:#c7cddb;   */
+  display: flex; 
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+} 
+.fcards1{
+  margin: 0px; 
+  border: 1px solid grey;
+}
+.fcards2 , .fcards3{
+  width: 150px;
+  padding: 10px; 
+  margin: 10px;  
+  text-align: center; 
+  /* border: 1px solid grey; */
+}
+.payment{
+  width: 86%;
+  height: 200px; 
+  background-color: white; 
+  padding: 20px; 
+  position: relative; 
+  border: 1px solid grey;
+} 
+
+
+
+
+
+
+
+
+}

@@ -1,0 +1,24 @@
+ <div class="data" >
+    <div class="details"> 
+      <form id = "alldetails" class="alldetails" action="/round-trip" method="POST">
+      <div class="fdetail data1"> 
+        <label for="Ocity" >Origin City</label> 
+        <input type="text" placeholder={{Ocity}} name="Ocity" id="Ocity" required>
+      </div>
+      <div class="fdetail data2 "> 
+        <label for="Dcity">Destinaation City</label> 
+        <input type="text" placeholder={{Dcity1}} name="Dcity1" id="Dcity" required> 
+        <ion-icon class="adddesti" onclick="addCard()" name="add-circle-outline"></ion-icon>
+      </div>
+      <div class="fdetail data3">
+        <label for="pdate">PickUp Date</label> 
+        <input type="datetime-local" id="pdate" name="Pickuptime" placeholder="pickup Date" required>
+      </div>  
+      <div class="fdetail data4">
+        <label for="Ddate">Drop Date</label> 
+        <input type="datetime-local" id="Ddate" name="Droptime" placeholder="Drop Date" required>
+      </div>  
+      <button type="submit" class="searchbtn">Search</button>
+    </form>
+    </div>
+  </div> 

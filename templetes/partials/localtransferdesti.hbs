@@ -1,0 +1,103 @@
+ <div class="ratebox1">
+    <div class="rcont1">
+     <div class="swift1">
+      <div class={{logoName}}></div>
+      <div class="swifthead1">
+        <h1>{{carName}}</h1>
+        <p>({{cartype}})</p> 
+        <p ><span style="font-weight: bolder;">Packages:</span>{{packagetype}}</p>
+      </div> 
+      <div class="rdetails">
+        <p ><span style="font-weight: bolder;">Charged:</span>{{charged}}Km</p>
+        <div class="detailsbutton" onclick={{detailbox}}>
+          <p>Details <ion-icon name="chevron-down-outline"></ion-icon></p>
+        </div>
+      </div>
+     </div>
+    </div> 
+    <div class="rbook1"> 
+      <p class="totalprice">₹{{tprice}}</p>
+      <p>Inc. GST & DA</p> 
+       <form action="/local-transfer-search-result" method="post" > 
+      <input type="text" name="Origincity"  value={{Ocity}} style="display: none;" > 
+      <input type="text" name="carName"  value={{model}} style="display: none;"  >  
+       <input type="text" name="packagetype"  value={{packagetype}} style="display: none;" > 
+         <input type="text" name="tprice"  value={{tprice}}  style="display: none;" >  
+          <input type="text" name="Pickuptime"  value={{Pickuptime}}  style="display: none;" >   
+            <input type="text" name="Triptype"  value={{Triptype}}  style="display: none;" >  
+             <input type="text" name="Desticity"  value={{Dcity}}  style="display: none;" > 
+      <button type="submit" style="z-index: 99;">Book Now</button> 
+      </form>
+    </div>
+   </div> 
+      <div class="ralldetails" id={{ralldetails}} style="display: none;">
+    <div class="navdetails">
+      <div class="button1 dbutton" style="background-color: #14213D; color: white;">Fare Breakup</div>
+    </div> 
+    <div class="button1data">
+      <table>
+        <tr> 
+          <td><h4>Rate/Km</h4></td>
+          <td>Rs.{{ratekm}}/Km</td>
+          <td><h4>Base Fare</h4></td> 
+          <td>Rs.{{base_fare}}</td>
+        </tr>
+        <tr> 
+          <td><h4>Minimum Km/Day</h4></td> 
+          <td>{{min_prday}}km</td>  
+           <td><h4>GST(5%)</h4></td> 
+           <td>Rs.{{gst}}</td>
+        </tr>
+        <tr> 
+          <td><h4>Running Distance</h4></td> 
+          <td>{{run_dist}}</td>  
+            <td><h4>Total Fare</h4></td> 
+          <td>Rs.{{total_fare}}</td>
+        </tr> 
+        <tr>
+          <td><h4>Charged Distance</h4></td> 
+          <td>{{charg_dist}}Km</td> 
+        </tr>
+      </table>
+    </div>  
+    <div class="navdetails">
+      <div class="button2 dbutton" style="background-color: #14213D; color: white;">Exclusion</div>
+    </div> 
+    <div class="button2data">
+      <table>
+        <tr>
+          <td><h4>Toll Tax</h4></td> 
+          <td>{{tolltax}}</td> 
+           <td><h4>Parking</h4></td> 
+          <td>{{parking}}</td> 
+           <td><h4>State Permit</h4></td> 
+          <td>{{state_permit}}</td>
+        </tr>
+      </table>
+    </div>  
+    <div class="navdetails">
+      <div class="button3 dbutton" style="background-color: #14213D; color: white;">Extra Chargers</div>
+    </div> 
+    <div class="button3data">
+      <table>
+        <tr>
+          <td><h4>Extra Km Beyond {{beyond}}</h4></td> 
+          <td>{{extra_km_beyond}}Km</td> 
+          <td><h4></h4></td> 
+          <td></td>
+        </tr>
+      </table>
+    </div>  
+    <div class="navdetails">
+      <div class="button4 dbutton" style="background-color: #14213D; color: white;">Terms And Conditions</div>
+    </div> 
+    <div class="button4data">
+      <ol>
+        <li><b>Duration Calculation:</b> One day refers to one calendar day, measured from 12 midnight to 12 midnight.</li> 
+        <li><b>Distance and Time Calculation:</b> Kilometers and hours will be calculated from garage to garage.</li> 
+        <li><b>Additional Charges:</b> Toll, parking fees, inter-state permits, and any other additional charges are not included in the base cost. Customers will be required to pay these separately as applicable.</li> 
+        <li><b>Extra Hours and Kilometers:</b> Both extra hours and kilometers beyond the agreed-upon limit will incur additional charges.</li> 
+        <li><b>Extra Driver Allowance:</b> If the cab is used before 6:00 AM or after 10:00 PM, an extra driver allowance will be applicable. This allowance covers the additional costs associated with employing a driver during unconventional hours.</li>
+      </ol>
+    </div>
+   </div> 

@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ApnaSadhan - Car Rental Services | Best taxi service in Indore</title> 
+  <meta name="description" content="Welcome to ApnaSadhan, your premier destination for top-quality car rentals and taxi services tailored to meet your every need. Book your dream car and embark on the journey of a lifetime!">
+
+   <link rel="shortcut icon" href="../../public/images/favicon_io/android-chrome-192x192.png" type="image/x-icon">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400;1,700&family=Cormorant:ital,wght@0,300..700;1,300..700&family=Dancing+Script:wght@400..700&family=Pacifico&family=Salsa&display=swap" rel="stylesheet">
+  <style>
+    *{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.mainadmin{
+  width: 100%;
+  height: fit-content;
+  /* background-color: rgb(216, 0, 0);  */
+} 
+.mylogo{
+  font-family: "Pacifico", cursive;
+  font-weight: 400;
+  font-style: normal; 
+  font-size: 5vh; 
+  height: 10vh; 
+  position: relative;
+  width: 376px; 
+  text-align: center; 
+  color: #14213D; 
+ display: flex;
+ justify-content: center;
+ align-items: center; 
+}
+#lapna{
+  font-family: "Pacifico", cursive; 
+  color: #14213D;  
+} 
+#lsadhan{
+  font-family: "Pacifico", cursive; 
+  color: #90170c;
+} 
+#sadhan{
+  color:#90170c; 
+  font-family: "Pacifico", cursive;
+} 
+.cari1{
+  margin-right: -8px; 
+  color: #90170c;
+} 
+.cari2{
+  margin-top: 10px;
+}
+#heading{
+  text-align: center; 
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+  text-decoration: underline; 
+  color:#14213D;
+} 
+.stabledata{
+  /* background-color: #90170c;  */
+  height: fit-content; 
+  padding: 20px 20px; 
+  text-align: center ;
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+  flex-direction: column;
+} 
+.stabledata table thead tr th{
+  font-size: 18px; 
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+  padding: 10px;  
+} 
+
+.stabledata table tbody tr td{
+  font-size: 15px; 
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+  padding: 10px; 
+  box-shadow: 0px 0.5px 2px black;
+}  
+#stable{
+ border: 1px solid black; 
+ border-radius: 10px; 
+ box-shadow: 2px 2px 8px black;
+} 
+
+@media(max-width:700px){
+.mylogo{
+  font-size: 20px;
+}  
+#heading{
+  font-size: 18px;
+} 
+#startDate , #endDate{ 
+  margin-top: 10px;
+} 
+.searchboxs{
+  height: 350px;
+}
+.sinput{
+  font-size: 18px; 
+  width: 200px; 
+  height: 25px; 
+  margin-bottom: 10px;
+} 
+.sbutton{
+  padding: 2px 10px;
+} 
+.searchbox2{
+  height: 200px;
+}
+.searchbox2 form{
+  display: flex; 
+  flex-wrap: wrap; 
+  justify-content: center;
+  align-items: center; 
+}
+.stabledata{
+  /* background-color: #90170c;  */
+  padding: 10px 10px;  
+  border-radius: 5px;
+} 
+.stabledata table thead tr th{
+  font-size: 5.9px; 
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+  padding: 0.5px;  
+} 
+
+.stabledata table tbody tr td{
+  font-size: 5.9px; 
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+  padding: 0.5px; 
+  box-shadow: 0px 0.5px 2px black;
+}  
+#stable{
+ border: 1px solid black; 
+ border-radius: 5px; 
+ box-shadow: 2px 2px 8px black;
+} 
+}
+  </style>
+</head>
+<body> 
+  <div class="mainadmin"> 
+    <div class="mylogo">
+    
+      Apna<span id="sadhan">Sadhan</span><ion-icon class="cari1" name="walk-outline"></ion-icon><ion-icon class="cari2" name="car-sport-outline"></ion-icon>
+     </div> 
+  <h1 id = "heading">FeedBack Page</h1> 
+ 
+<div class="stabledata">
+  <table id="stable">
+    <thead>
+      <tr>
+          <th>Full Name</th> 
+        <th>Phone No.</th> 
+       <th>Email</th> 
+        <th>Feed Back</th> 
+      </tr>
+    </thead>
+    <tbody>
+      {{#each users}}
+      <tr>
+         <tr> 
+           <td>{{this.name}}</td> 
+          <td>{{this.phone}}</td>
+          <td>{{this.email}}</td> 
+          <td>{{this.msg}}</td> 
+        </tr>
+      </tr>
+      {{/each}}
+    </tbody>
+  </table>  
+</div>
+</div> 
+<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script> 
+</body>
+</html>

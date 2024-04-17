@@ -1,0 +1,25 @@
+<div class="data">
+  <div class="details" style="width: 93%;"> 
+    <form class="alldetails" action="/local-transfer" method="POST">
+      <div class="fdetail data1"> 
+        <label for="Ocity" >Origin City</label>
+        <input type="text" placeholder={{Ocity}} name="Ocity" id="Ocity" required>
+      </div> 
+    <div class="fdetail data1"> 
+      <label for="Ocity" >Destination City</label>
+      <input type="text" placeholder={{Dcity}} name="Dcity" id="Ocity" required>
+    </div> 
+    <div class="fdetail data2">
+      <label for="combo">Trip Type</label> 
+      <select name="packagecombo" id="combo" required><option value="FromAirport">From Airport</option>
+        <option value="ToAirport">To Airport</option></select>
+    </div> 
+    <div class="fdetail data3">
+      <label for="PickUp">PickUp Date</label> 
+      <input type="datetime-local" id="pdate" name="Pickuptime" placeholder="Choose Date" required>
+    </div>  
+
+    <button type="submit" class="searchbtn">Search</button>
+  </form>
+  </div>
+</div>

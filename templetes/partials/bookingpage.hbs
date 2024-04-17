@@ -1,0 +1,73 @@
+ <div class="mainbookdiv">
+    <div class="billingdetails">
+   <h2 id="bdheading">Billing Details</h2> 
+   <hr> 
+   <form action="" method="post" id="myForm">
+  <div class="bdalldata">
+    <div class="bdmobileno bddata">
+      <label for="mobileno">Mobile No:</label> 
+      <input type="text" id="bphone" placeholder="Mobile Number" name="phone" required> 
+       <input type="text" name="Origincity"  value={{Origincity}} style="display: none;" > 
+      <input type="text" name="carName"  value={{carName}} style="display: none;"  >  
+       <input type="text" name="packagetype"  value={{packagetype}} style="display: none;" > 
+         <input type="text" name="tprice"  value={{tprice}}  style="display: none;" >  
+          <input type="text" name="Pickuptime"  value={{Pickuptime}}  style="display: none;" >    
+             <input type="text" name="Ocity"  value={{Ocity}}  style="display: none;" > 
+    </div> 
+    <div class="bdemail bddata">
+      <label for="email">Email:</label> 
+      <input type="email" id="bemail" placeholder="Enter Email" name="email" required>
+    </div> 
+    <div class="bdfullname bddata">
+      <label for="fullname">Full Name:</label> 
+      <input type="text" id="fullname" placeholder="Enter FullName" name="fullname" required>
+    </div> 
+    <div class="bdpickuploc bddata">
+      <label for="pickuploc">Pickup Location:</label> 
+      <input type="text" id="pickuploc" placeholder="Enter Your Location" name="pickuploc" required>
+    </div> 
+    <div class="bdcheckboxs"> 
+      <div class="bdc1 bdc">
+        <input type="checkbox" id="bcheck1"  required> <p>Book Now Pay Later</p>
+      </div> 
+      <div class="bdc2 bdc">
+        <input type="checkbox" id="bcheck2"  required> <p>I accept term and condition.</p>
+      </div>
+    </div> 
+    <button type="submit" onclick="finaly()">Book</button> 
+  </div> 
+</form> 
+<p style="font-size: 13px; color:rgb(158, 0, 0); margin-top:20px; text-align:center">Note :- please check your email after clicking the button</p>
+    </div> 
+    <div class="orderinfo">
+      <h2 id="oiheading">Order Info</h2> 
+      <hr> 
+      <div class="oidatatable">
+        <table>
+          <tr>
+            <th class="oitheading"> <h2>Trip for: </h2></th> 
+            <td class="oitdata">From {{Origincity}} with {{carName}}</td> 
+          </tr> 
+          <tr>
+            <th class="oitheading"> <h2>Package Name:</h2></th> 
+            <td class="oitdata"><h4>{{packagetype}} {{Triptype}}</h4></td> 
+          </tr> 
+          <tr>
+            <th class="oitheading"> <h2>Pickup Date & Time:</h2></th> 
+            <td class="oitdata">{{Pickuptime}}</td> 
+          </tr> 
+          <tr>
+            <th class="oitheading"> <h2>Drop Date & Time:</h2></th> 
+            <td class="oitdata">	{{Droptime}}</td> 
+          </tr> 
+        </table>  
+        <hr> 
+        <table>
+          <tr>
+            <th class="oitheading2"> <h2>Total Amount:</h2></th> 
+            <td class="oitdata2">₹{{tprice}}</td> 
+          </tr>
+        </table>
+      </div>
+    </div>
+  </div>

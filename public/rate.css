@@ -1,0 +1,303 @@
+*{
+  margin: 0; 
+  padding: 0; 
+  box-sizing: border-box; 
+  font-family: Arial, Helvetica, sans-serif;  
+  scroll-behavior: smooth;
+} 
+.rateboxs{
+  width: 100%; 
+  height: fit-content; 
+  /* background-color: aquamarine;  */
+  display:flex;
+  justify-content: center; 
+  flex-direction: column; 
+  align-items: center;  
+  overflow: hidden;
+} 
+.safetyimg{
+  width: 60%;
+  height: 60px; 
+  /* background-color: blueviolet;  */ 
+  background-image: linear-gradient(45deg ,rgb(41, 49, 81)  ,rgb(218, 75, 75), rgb(41, 49, 81) ,rgb(218, 75, 75));
+  margin-top: 50px; 
+  font-size: 50PX; 
+  text-align: center; 
+  font-weight: 700; 
+  color: white; 
+  box-shadow: 5px 5px 10px black;
+} 
+
+.ratebox1{ 
+  margin-top: 50px;
+  width: 60%;
+  height: 200px; 
+  background-color: rgb(255, 255, 255); 
+  display: flex;  
+  border-radius: 10px; 
+  border:2px solid grey;
+} 
+.rcont1{
+  width: 70%;
+  height: inherit;
+  /* background-color: brown; */ 
+  border-radius: 10px;
+}
+.swift1{
+  width: 100%;
+  height: 70%;
+  display: flex; 
+  flex-wrap: wrap; 
+  background-color: white; 
+  border-radius: 10px;
+} 
+.swiftlogo1{
+  width: 30%;
+  height: 80%;
+  background-image: url("./images/wagonr.jpeg");
+  background-size: cover;
+  background-position: center; 
+  padding: 20px; 
+  border-radius: 15px;
+}   
+
+.swiftlogo1_1{
+  width: 30%;
+  height: 80%;
+  background-image: url("./images/alto.webp");
+  background-size: cover;
+  background-position: center; 
+  padding: 20px; 
+  border-radius: 15px;
+} 
+.swiftlogo2{
+  width: 30%;
+  height: 80%;
+  background-image: url("./images/dzire.png");
+  background-size: cover;
+  background-position: center; 
+  padding: 20px; 
+  border-radius: 15px;
+}  
+.swiftlogo3{
+  width: 30%;
+  height: 80%;
+  background-image: url("./images/ertiga.jpg");
+  background-size: cover;
+  background-position: center; 
+  padding: 20px; 
+  border-radius: 15px;
+}  
+.swiftlogo4{
+  width: 30%;
+  height: 80%;
+  background-image: url("./images/innova.jpeg");
+  background-size: cover;
+  background-position: center; 
+  padding: 20px; 
+  border-radius: 15px;
+} 
+
+.swiftlogo5{
+  width: 30%;
+  height: 80%;
+  background-image: url("./images/hondacity.jpeg");
+  background-size: cover;
+  background-position: center; 
+  padding: 20px; 
+  border-radius: 15px;
+}
+.swifthead1{
+  width: 70%;
+  height: 100%;
+  background-color: rgb(255, 255, 255); 
+  display: flex;
+  justify-content: space-evenly;
+  align-items: right; 
+  flex-direction: column; 
+  border-radius: 10px;
+} 
+.swifthead1 h1{
+  color: #14213D;
+} 
+.swifthead1 p{
+  font-size: 18px; 
+  color: rgb(89, 88, 88);
+} 
+.rdetails{
+  background-color: rgb(255, 255, 255);
+  color: rgb(89, 88, 88); 
+  width: 100%;
+  height: 41%; 
+  display: flex;
+  justify-content: space-between; 
+  align-items: center; 
+  border-bottom-left-radius: 10px;
+} 
+.detailsbutton{
+  width:100px;
+  height: 40px;
+  background-image: linear-gradient(45deg ,rgb(41, 49, 81)  ,rgb(218, 75, 75), rgb(41, 49, 81) ,rgb(218, 75, 75)); 
+  border-radius: 10px; 
+  color: white; 
+  font-size: 18px; 
+  font-weight: 900; 
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+  margin-right: 10px;
+}
+.rbook1{ 
+  width: 30%;
+  height: 100%; 
+  background-color: rgb(250, 248, 248);
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center; 
+  flex-direction: column; 
+  font-size: 18px; 
+  color: rgb(89, 88, 88); 
+  border-radius: 0px 10px 10px 0px;
+} 
+.totalprice{
+  font-size: 30px;
+  font-weight: 900;
+}
+.rbook1 button{
+  width:100px;
+  height: 40px;
+  background-image: linear-gradient(45deg ,rgb(41, 49, 81)  ,rgb(218, 75, 75), rgb(41, 49, 81) ,rgb(218, 75, 75)); 
+  border-radius: 10px; 
+  color: rgb(255, 255, 255); 
+  font-size: 14px; 
+  font-weight: 900; 
+  display: flex;
+  justify-content: center;
+  align-items: center;  
+} 
+
+.swifthead1 p span{
+  font-size: 20px;
+}
+.rdetails p span{
+  font-size: 20px;
+}
+.ralldetails{
+  width: 60%;
+  height: auto;
+  background-color: #14213D;  
+  transition: 2s all;
+} 
+.navdetails{
+  width: 100%;
+  height: 40px; 
+  /* background-color: aliceblue;  */
+  display: flex; 
+  justify-content: space-around; 
+  align-items: center; 
+  color: brown;
+} 
+.dbutton{
+   height: auto; 
+   width: auto;
+  padding: 10px 20px; 
+  border-radius: 10px; 
+} 
+.button1data , .button2data , .button3data  {
+  height: auto;
+  width: 100%;
+}  
+.button4data{
+  padding: 20px; 
+  background-color: #ffffff; 
+  text-align: justify;
+}
+.button1data table , .button2data table , .button3data table {
+  background-color: rgb(255, 255, 255); 
+  width: 100%; 
+  /* border: 2px solid grey; */
+} 
+
+@media(max-width:700px){
+  .safetyimg{
+    width: 90%;
+    height: 40px;  
+    font-size: 15px; 
+    padding-top: 10px;
+  } 
+  
+  .ratebox1{
+    width: 90%;
+    height: 200px;  
+  } 
+  .rcont1{
+    width: 80%;
+    height: 100%; 
+    /* background-color: brown; */
+  } 
+  .swift1{
+    width: 100%;
+    height: 70%;
+  } 
+  .swiftlogo1 , .swiftlogo2 ,  .swiftlogo3 , .swiftlogo4 ,  .swiftlogo1_1 ,   .swiftlogo5 { 
+    margin-top: 18px;
+    width: 30%;
+    height: 30%;
+  } 
+  .swifthead1{
+    width: 70%;
+    height: 100%;
+  } 
+  .swifthead1 h1{
+    color: #14213D; 
+    font-size: 20px;
+  } 
+  .swifthead1 p{
+    font-size: 12px; 
+    color: rgb(89, 88, 88);
+  }  
+  .swifthead1 p{
+    font-size: 12px; 
+    color: rgb(89, 88, 88);
+  }  
+  .swifthead1 p span{
+    font-size: 15px;
+  }
+  .rdetails p span{
+    font-size: 15px;
+  }
+  .rdetails{
+    background-color: rgb(255, 255, 255);
+    color: rgb(89, 88, 88); 
+    width: 100%;
+    height: 43%;  
+    font-size: 13px;
+  } 
+  .detailsbutton{
+    width:70px;
+    height: 30px;
+    font-size: 13px; 
+    font-weight: 700; 
+  }
+  .rbook1{ 
+    width: 30%;
+    height: 100%;    
+    font-size: 13px; 
+    color: rgb(89, 88, 88);
+  } 
+  .totalprice{
+    font-size: 20px;
+    font-weight: 900;
+  }
+  .rbook1 button{ 
+    width:80px;
+    height: 30px;
+    font-size: 14px; 
+    font-weight: 700;  
+    margin-bottom: -20px;
+  } 
+  .ralldetails{
+    width: 90%; 
+    font-size: 12px;
+  } 
+}
