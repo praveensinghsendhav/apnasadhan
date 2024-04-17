@@ -1,4 +1,4 @@
-const distances = require("../caldistance"); 
+const distances = require("../models/caldistance"); 
 const express = require("express"); 
 
 async function localtransferdata(obj)

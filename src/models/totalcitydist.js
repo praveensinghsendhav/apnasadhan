@@ -1,4 +1,4 @@
-const distance = require("../caldistance"); 
+const distance = require("../models/caldistance"); 
 require("express");
 async function totalcitydist  (obj){
  try{  

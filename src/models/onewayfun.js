@@ -1,4 +1,4 @@
-const distance = require("../caldistance");
+const distances = require("../models/caldistance"); 
 const express = require("express"); 
 
 async function onewayfun(loc1 , loc2){
