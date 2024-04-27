@@ -1,9 +1,9 @@
-const distances = require("../models/caldistance"); 
+const distances = require("./caldistance"); 
 const express = require("express"); 
 
 async function onewayfun(loc1 , loc2){
   try {
-    const result = await distance(loc1, loc2);
+    const result = await distances(loc1, loc2);
     let distdata = result.rows[0].elements[0].distance.text; 
     let distanceWithoutUnit = distdata.replace("km", "");
     let distanceInteger = parseInt(distanceWithoutUnit);

@@ -303,11 +303,10 @@ visibility: visible;
   padding: 35px 0px; 
 } 
 .details{
-  width: 80%;
+  width: fit-content;
   height: auto; 
   background-color: #ffffff; 
   border-radius: 0px; 
-
 }   
 .cartrips a{
   text-decoration: none;
@@ -316,7 +315,9 @@ visibility: visible;
 
 .alldetails{
   display: flex; 
-  flex-wrap: wrap;
+  flex-wrap: wrap; 
+  /* background-color: #14213D;  */
+  width: fit-content;
 }
 .fdetail{
 width: 290px;
@@ -1236,4 +1237,26 @@ padding: 5px  10px;
 
 
 
+} 
+
+@media(min-width:700px) and (max-width:1450px){
+  #pdate , #Ocity , #combo{
+   width:80%;
+  } 
+  .chooseus{
+    height: fit-content;
+  }
+  .clist{
+    height: fit-content;
+  } 
+
+  .cmaincont h1 , .easyicon{
+    font-size: 5vh;
+  } 
+  .download{
+    width: 350px;
+  }  
+  .details{
+    width: 81%;  
+  }
 }

@@ -1,5 +1,5 @@
-function dateandtime(){
-  const dateTimeString = "2024-04-13T21:43";
+function dateandtime(date){
+  const dateTimeString = date;
 
 // Creating a new Date object with the given string
 const dateTime = new Date(dateTimeString);

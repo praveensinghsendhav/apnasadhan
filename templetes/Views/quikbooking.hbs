@@ -188,32 +188,32 @@ border-radius: 10px 10px 0px 0px;
     <form action="/quikbooking" method="post">
       <div class="fullname">
         <label for="fullname">Full Name:</label> 
-      <input type="text" name="fullname" id="fullname" placeholder="Enter Full Name">
+      <input type="text" name="fullname" id="fullname" placeholder="Enter Full Name" required>
       </div> 
       <div class="email">
       <label for="email">Email:</label> 
-      <input type="email" name="email" id="email" placeholder="Enter Your Email Id">
+      <input type="email" name="email" id="email" placeholder="Enter Your Email Id" required>
       </div> 
       <div class="phone">
         <label for="phone">Phone No:</label> 
-        <input type="phone" name="phone" id="phone" placeholder="Enter Your Phone No">
+        <input type="phone" name="phone" id="phone" placeholder="Enter Your Phone No" required>
         </div>  
         <div class="pickuploc">
           <label for="pickuploc">Enter Your Location</label> 
-          <input type="text" name="pickuploc" id="pickuploc" placeholder="Enter Your Proper Location Here">
+          <input type="text" name="pickuploc" id="pickuploc" placeholder="Enter Your Proper Location Here" required>
           </div>  
 
           <div class="pickupdate">
             <label for="pickupdate">Pickup Date:</label> 
-          <input type="datetime-local" name="Pickuptime" id="pickupdate" placeholder="Choose date">
+          <input type="datetime-local" name="Pickuptime" id="pickupdate" placeholder="Choose date" required>
           </div> 
           <div class="car">
           <label for="car">Car You Want:</label> 
-          <input type="text" name="car" id="car" placeholder="Enter Car you Want">
+          <input type="text" name="car" id="car" placeholder="Enter Car you Want" required>
           </div> 
           <div class="packagetype"> 
             <label for="packagetype">Select Package:</label> 
-            <select name="packagetype" id="packagetype">
+            <select name="packagetype" id="packagetype" required>
               <option value="FromAirport">From Airport cabs</option>
               <option value="ToAirport">To Airport cabs</option> 
               <option value="forlocal">For Local cabs</option>

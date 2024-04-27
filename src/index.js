@@ -487,7 +487,7 @@ app.get("/one-way-search-booking-page" , (req, res)=>{
                 objdata.carName = req.body.car;
                 try{  
                   const booking = await sendBookingEmails(objdata); 
-                const date =  dateandtime(req.body.Pickuptime);
+                const date =  dateandtime(objdata.Pickuptime);
                    const b1 = new Bookingdata({
                      phone: req.body.phone,
                      carName: req.body.car,
