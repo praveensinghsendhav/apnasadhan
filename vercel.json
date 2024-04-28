@@ -1,15 +1,15 @@
 {
-  "version":2,
-  "builds":[
+  "version": 2,
+  "builds": [
     {
-      "src":"./src/index.js",
-      "use":"@vercel/node"
+      "src": "src/index.js",
+      "runtime": "nodejs16.x"
     }
   ],
-  "routes":[
+  "rewrites": [
     {
-      "src":"/(.*)",
-      "dest" :"/"
+      "source": "/src(.*)",
+      "destination": "/src/index.js"
     }
-  ] 
+  ]
 }
